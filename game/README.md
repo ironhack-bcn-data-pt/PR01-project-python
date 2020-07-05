@@ -1,7 +1,7 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of Your Project
-*Mastermind*
+# Mastermind
+*Lola López*
 
 *bcn-data-june-2020*
 
@@ -16,7 +16,10 @@
 Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
 
 ## Rules
-Describe briefly the rules of the game you chose. 
+The objective is to guess the colour code in less than the maximum number of tries.
+The player must choose a combination (the colours can be repeated) and after each try, he will get a feedback indicating:
+   - For each colour which is correct but not in the good place: a white
+   - For each colour which is correct and in the good position: a black
 
 ## Workflow
 Outline the workflow you used in your project. What are the steps you went through?
@@ -27,8 +30,7 @@ How did you organize your work? Did you use any tools like a trello or kanban bo
 What does your repository look like? Explain your folder and file structure.
 
 ## Links
-Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
 [Repository](https://github.com/)  
 [Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Trello](https://trello.com/b/uAyrNa2X/pr01-build-your-own-game)  
