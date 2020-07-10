@@ -13,21 +13,31 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+This project consists in the development of the Mastermind game. It includes two versions:
+1. One to run via command line
+2. One to run in a notebook (jupyter notebook)
 
 ## Rules
-The objective is to guess the colour code in less than the maximum number of tries.
-The player must choose a combination (the colours can be repeated) and after each try, he will get a feedback indicating:
-   - For each colour which is correct but not in the good place: a white
-   - For each colour which is correct and in the good position: a black
+The objective is to guess the colour code within the minimum number of tries.
+One player must chooses a combination (the colours can be repeated) and the other player has to guess it.
+After each try, the second player gets the feedback indicating the number of:
+   - Cows: For each colour which is correct but not in the good place
+   - Bulls: For each colour which is correct and in the good position
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
+The steps I followed to build this project were:
+1. Build all the functions separately and test them
+2. Once the functions were working, I tried them all together in once
+3. Build the player class
+4. Build the game class
+5. Validation
+6. Little improvements adding more comments for the users, adding level options, etc.
 
 ## Organization
 How did you organize your work? Did you use any tools like a trello or kanban board?
 
-What does your repository look like? Explain your folder and file structure.
+The repository includes 3 files:
+1. 
 
 ## Links
 
