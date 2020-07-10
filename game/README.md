@@ -34,13 +34,15 @@ The steps I followed to build this project were:
 6. Little improvements adding more comments for the users, adding level options, etc.
 
 ## Organization
-How did you organize your work? Did you use any tools like a trello or kanban board?
+To organize the work I mainly used trello (the link is below) and the first diagram flow I did it on a paper, because it helps me to write first the pseudocode on a paper and then I started writing it in a notebook.
 
-The repository includes 3 files:
-1. 
+The repository includes:
+1. README file
+2. source folder:
+   * Mastermind.ipynb: jupyter notebook to run the game
+   * mastermindgame.py: python file including the game definition to be run in the terminal
 
 ## Links
 
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
+[Repository](https://github.com/LolaLop/PR01-project-python.git)   
 [Trello](https://trello.com/b/uAyrNa2X/pr01-build-your-own-game)  
