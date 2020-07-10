@@ -3,7 +3,7 @@
 # Hangwomen
 *[Anna Vilardell]*
 
-*[Data Analytics PT June, Barcelona & 11/07/2020]*
+*[Data Analytics Part Time Course, Barcelona June 2020]*
 
 ## Content
 - [Project Description](#project-description)
@@ -17,23 +17,37 @@ Hangwomen is a game created with basic python and that interacts with the user.
 
 ## Rules
 
-*Standard Rules* \n
+*Standard Rules*
+
 One player thinks of a word; the others try to guess what it is one letter at a time. The player draws a number of dashes equivalent to the number of letters in the word. If a guessing player suggests a letter that occurs in the word, the other player fills in the blanks with that letter in the right places
 
 *Personalized Rules*
+
 - 2 players: PC and Human
 - 6 trials to guess the word
 
 
 ## Workflow
-Workflow used for this project is as follows: \n
+1.Prepare the game:
 
+- Generate a random word from a lisr and store it in a variable
+- Display length of the secret word 
+
+2.Start the game:
+
+- Ask the player to guess a letter (make sure it is a letter and not a different element o +1 letter)
+
+ -if the guess is correct add to correct_letters 
+ -if the guess is incorrect increment incorrect_letters and draw the hangwomen 
+
+ -if the incorrect_letter is greater than 6, the game is over 
+ -if correct_letter is equal to the length of the word, the player wins the game
 
 
 ## Organization
 Main Organization:
 0. Organize Trello with the main task and timings
-1. Search about the game (general rules and diferent ways to play it)
+1. Search about the game (general rules and different ways to play it)
 2. Write Pseudocode
 3. Write Code
 4. Make the presentation
