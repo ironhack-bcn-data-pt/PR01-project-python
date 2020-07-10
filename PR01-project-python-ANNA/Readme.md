@@ -14,11 +14,10 @@
 
 ## Project Description 
 Hangwomen is a game created with basic python and that interacts with the user.
-Is a game to play when you get bored and want to disconnect a bit form your current duties. We all need this type of game ;)
 
 ## Rules
 
-*General Rules*
+*Standard Rules* \n
 One player thinks of a word; the others try to guess what it is one letter at a time. The player draws a number of dashes equivalent to the number of letters in the word. If a guessing player suggests a letter that occurs in the word, the other player fills in the blanks with that letter in the right places
 
 *Personalized Rules*
@@ -27,20 +26,19 @@ One player thinks of a word; the others try to guess what it is one letter at a 
 
 
 ## Workflow
-Workflow used for this project:
+Workflow used for this project is as follows: \n
+
+
+
+## Organization
+Main Organization:
 0. Organize Trello with the main task and timings
 1. Search about the game (general rules and diferent ways to play it)
 2. Write Pseudocode
 3. Write Code
-4. Search for complete code from other people to get ideas and help
-5. Make the presentation
-6. Complete Readme file
+4. Make the presentation
+5. Complete Readme.md
 
-
-## Organization
-How did you organize your work? Did you use any tools like a trello or kanban board?
-
-What does your repository look like? Explain your folder and file structure.
 
 ## Links 
 
