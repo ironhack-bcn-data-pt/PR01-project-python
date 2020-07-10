@@ -37,17 +37,18 @@ One player thinks of a word; the others try to guess what it is one letter at a 
 
 - Ask the player to guess a letter (make sure it is a letter and not a different element o +1 letter)
 
- -if the guess is correct add to correct_letters 
+   -if the guess is correct add to correct_letters 
  
- -if the guess is incorrect increment incorrect_letters and draw the hangwomen 
+   -if the guess is incorrect increment incorrect_letters and draw the hangwomen 
 
- -if the incorrect_letter is greater than 6, the game is over 
+   -if the incorrect_letter is greater than 6, the game is over 
  
- -if correct_letter is equal to the length of the word, the player wins the game
+   -if correct_letter is equal to the length of the word, the player wins the game
 
 
 ## Organization
 Main Organization:
+
 0. Organize Trello with the main task and timings
 1. Search about the game (general rules and different ways to play it)
 2. Write Pseudocode
