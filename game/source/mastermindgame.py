@@ -50,16 +50,16 @@ class Player():
     def check(self, usercode):
     
         # Counters
-        bulls = len([i for i,j in zip(usercode, self.code) if i == j])
-        cows = len([i for i in usercode if i in self.code]) - bulls
+        self.bulls = len([i for i,j in zip(usercode, self.code) if i == j])
+        self.cows = len([i for i in usercode if i in self.code]) - self.bulls
 
-        if cows < 0:
-            cows = 0
+        if self.cows < 0:
+            self.cows = 0
 
-        if bulls == self.level:
+        if self.bulls == self.level:
             return 1
         else:
-            print(f'cows = {cows} bulls={bulls}')
+            print(f'cows = {self.cows} bulls={self.bulls}')
             return 0
 
 
@@ -114,9 +114,23 @@ class Game:
             self.tries += 1
             usercode = p.guess()
             p.check(usercode)
+
+            # add the combination and the number of cows and bulls to show it 
+            # next time if it was not right
+            p.combinations.append([usercode, p.cows, p.bulls])
+
+            # check if the input combination is the same as the original one, 
+            # if so game has ended
             if ''.join(p.code) == usercode:
                 print(f'Congratulations, you have guessed the code in {self.tries} tries!!')
                 break
+
+            # show the previous combinations and cows&bulls
+            print('\nPrevious combinations tried:')
+            print('Combinations | Cows | Bulls')
+            for comb in p.combinations:
+                print(f'{comb[0]}\t     | {comb[1]}    | {comb[2]}')
+
 
 
 
@@ -127,7 +141,6 @@ if __name__ == '__main__':
     print(game.levelinstructions)
     # set level
     game.setlevel()
-    
 
     while True:
         game.play()
