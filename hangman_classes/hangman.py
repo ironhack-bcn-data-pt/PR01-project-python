@@ -13,7 +13,7 @@ class Game():
         self.attempts = attempts
         self.player = Player()
         self.wrong_letters_chosen = []
-        self.words = ["house","bee"]
+        self.words = ["house","bee", "elephant", "tree", "menu", "children", "story", "tennis", "kettle"]
         self.word_to_guess = random.choice(self.words)
         self.hangman = self.get_handman()
 
