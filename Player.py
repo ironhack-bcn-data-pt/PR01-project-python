@@ -113,9 +113,8 @@ class Player:
         if bet_amount < 0:
             bet_amount = 0
         self.amount_bet = min(bet_amount, self.stack)
-        self.stack = self.stack - bet_amount
+        self.stack = self.stack - self.amount_bet
         return self.amount_bet
-
 
 class Dealer(Player):
 
