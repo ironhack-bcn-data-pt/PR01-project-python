@@ -18,7 +18,7 @@ I will show you how to create a strong random password using python.
 
 ## Rules
 
-The program will force you to follow the rules. You can taste to break the code, but I created infinite bucle to make you put the right input.
+The program will force you to follow the rules. You can taste to break the code, but I created infinite loops to make you put the right input.
 
 ## Workflow
 
@@ -26,16 +26,15 @@ The program will force you to follow the rules. You can taste to break the code,
 - First, I need to create a list that contains all the characters that I want into my password.
 - Second, I need to create a function to ask for the length of the password.
 - Third, I created a function that generates a password and convert to list to shuffle and after converting again to the string.
-- Finally, I created a function to check if the password that you got it is the right one.
+- Finally,  I created a main function to show the program.
 
 
 ## Organization
 
-- First I read all the instructions because I am very bad understanding the procedures.
-- Second, I created the trello with the few steps that I used. It was not that much because my project was simple.
-- Third I started to code the program until I got the results.
-- Finally, I created the PowerPoint to present my project.
--- My repository only contains the Readme and the game.
+- I created the Trello to plan the project.
+- I created the code.
+- I created the PowerPoint to present my project.
+- My repository only contains the Readme and the game.
 
 ## Links
 
