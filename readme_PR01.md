@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Mastermind - Revisited!
+# Mastermind - TheMix!
 *Veronica Agnolutto*
 
 *Data_Barcelona_june.2o*
@@ -19,7 +19,7 @@
 I choose to create a game mixing the rules of the original pencil and paper version (*Bulls&Cows*) and the modern game with pegs invented in 1970's.
 
 
-#### Object of the game :dart
+#### Object of the game :dart:
 
 The object of the game is to guess a secret code consisting of a series of digits. Each guest results in feedback narrowing down the possibilities of the code. The winner is the player who solves his opponent's secret code with fewer guesses.
 
@@ -27,7 +27,7 @@ The object of the game is to guess a secret code consisting of a series of digit
 
 Let see the rules:
 
-#### Rules :clipboard
+#### Rules :clipboard:
 
 - **2 players** : *codemaker* vs *codebreaker* [*BC/MM*]
 - **secret code**: numeric, from 3 to 5 digits [*BC*] (blanks are NOT allowed, duplicate are)
@@ -42,7 +42,7 @@ Let see the rules:
 
 ## Workflow
 
-#### Workflow :rocket
+#### Workflow :rocket:
 
 1. - [x] Research (Mastermind + Bulls&Cows)
 2. - [x] Pseudo-code > design the game structure
