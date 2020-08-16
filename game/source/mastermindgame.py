@@ -40,7 +40,7 @@ class Player():
                 for letter in usercode:
                     if letter not in self.colours:
                         ok = False
-                        print(f'{letter} does not belong to the colour code {self.colours}\n')
+                        print(f'\x1b[0;37;41m {letter} does not belong to the colour code {self.colours}\n \x1b[0m')
 
             if ok:
                 break
@@ -97,7 +97,7 @@ class Game:
 	    		print(self.medium)
 	    		break
 	    	else:
-	    		print('The level must be easy, medium or advance \n')
+	    		print('\x1b[0;37;41m' + 'The level must be easy, medium or advance \n' + '\x1b[0m')
 
 
     def play(self):
